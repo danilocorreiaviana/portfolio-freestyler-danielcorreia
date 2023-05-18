@@ -1,0 +1,76 @@
+.contact{
+  width: 100%;
+  height: auto;
+  background: linear-gradient(90deg, #090c1a 0%, #170a18 100%); 
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.contact h2{
+  color: white;
+  font-size:xx-large;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+.containerContact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-wrap: wrap;  
+}
+
+.containerContact img{
+  width: 60px;
+  padding: 10px;
+  cursor: pointer
+}
+
+.footer{
+  margin-top: 100px;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+}
+
+.copyright{
+  font-weight: 400;
+  font-size: 15px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: gray;
+}
+
+.contatodev{
+  font-weight: 400;
+  font-size: 12px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color:gray
+}
+
+.logocontatodev{
+  width: 30px;
+  height: 30px;
+  padding: 8px;
+}
+
+@media (max-width: 600px) {
+  
+  .containerContact img{
+     width: 40px;
+  }
+
+
+} 
+  

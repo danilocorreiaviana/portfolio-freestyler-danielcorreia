@@ -1,0 +1,123 @@
+
+.gallery {
+  position: relative;
+/*   background-image: url("../imgs/bg.png");;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  color: #fff;
+  padding: 100px 0;   
+  margin: 0 auto;
+  padding-bottom: 150px;
+  
+} 
+
+.gallery::before {
+  content: "";
+  position: absolute;
+  background-image: url("../imgs/bg.png");;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+
+  
+} 
+
+
+/*     background: linear-gradient(90deg, #0f1429 0%, #240d25 100%);
+    max-width: 1350px; */
+
+  
+.gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;/* Trazer para frente do filtro */
+}
+
+.gallery img{
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.divButtons{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  position: relative;/* Trazer para frente do filtro */
+}
+
+.buttonGallery{
+  backface-visibility: hidden;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #58c;
+  border-radius: 10px;
+  border: 0px solid #246;
+  border-width: 0px 0px 4px 0px;
+  padding: 10px 20px 10px 20px;
+  margin-left: 20px;
+  color: #fff;
+
+}
+
+
+.divSlider{
+  margin-top: 50px;
+  transition: visibility 1000s, opacity 0.8s;
+  margin: 0 auto;
+  max-width: 850px;
+}
+
+
+
+.sliderGallery{
+  width: 260px;
+  margin: 0 auto;
+  cursor: pointer;
+
+}
+
+
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+/* Alterar a cor de fundo dos dots */
+.slick-dots li button:before {
+  font-size: 20px;
+  padding-top: 30px;
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  
+  .divSlider{
+    max-width: 425px;
+  }
+
+  .gallery{
+    padding-bottom: 100px;
+  }
+
+
+}
+
+
+
+
+  
+  

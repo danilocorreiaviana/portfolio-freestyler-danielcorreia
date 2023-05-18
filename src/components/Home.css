@@ -1,0 +1,117 @@
+
+.home{
+  margin-top: -85px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  opacity: 0.5;
+}
+
+.filter{
+  margin-top: -85px;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+
+.background-video {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.text-container {
+  font-size: 100vw;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 300%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.text-name {
+  display: flex;
+  color: #fff;
+  font-size: 80px;
+  font-weight:900;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.presentation {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #fff
+}
+
+.buttonHomeVideo{
+  width: 300px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  color: #fff;
+  border-width: 2px;
+  background-color: transparent;
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.buttonHomeVideo  img{
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}
+
+.buttonHomeVideo p{
+  text-decoration: none;
+  color:#fff;
+}
+
+@media (max-width: 768px) {
+  
+  .text-name {
+    font-size: 2.2rem;
+  }
+
+  .presentation {
+    font-size: 1.2rem;
+
+  }
+
+  .buttonHomeVideo{
+    width: 200px;
+  }
+
+
+
+}
+

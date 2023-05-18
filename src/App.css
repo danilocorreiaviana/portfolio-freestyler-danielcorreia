@@ -1,0 +1,25 @@
+/* @media only screen and (min-width: 1350px) {
+  html,
+  body {
+    max-width: 1350px;
+    margin: 0 auto;
+    background-color: #333;
+  }
+
+} */
+
+html,
+body {
+ /*  max-width: 1350px; */
+  margin: 0 auto;
+  background: linear-gradient(90deg, #06113a 0%, #622063 100%);
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+
+
+

@@ -1,0 +1,63 @@
+.sobre {
+    background: linear-gradient(90deg, #06113a 0%, #622063 100%);
+    color: #fff;
+    padding: 100px 0;
+    /* max-width: 1350px; */
+    margin: 0 auto;
+  }
+  
+.sobre h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sobre p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    max-width: 850px;
+    margin: 0 auto 30px;
+    text-align:justify;
+}
+
+.sobre .citation{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-top: 50px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+.sobre img {
+  display: flex;
+  max-width: 850px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+
+}
+
+@media (max-width: 768px) {
+  
+    .sobre h2 {
+      padding-inline: 20px;
+  
+    }
+  
+    .sobre p {
+      font-size: 1rem;
+      padding-inline: 30px;
+  
+    }
+
+    .sobre .citation{
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+  
+  
+}
+  
+  

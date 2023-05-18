@@ -1,0 +1,11 @@
+.load{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: linear-gradient(90deg, #0f1429 0%, #240d25 100%);
+    overflow-y: hidden;
+
+}

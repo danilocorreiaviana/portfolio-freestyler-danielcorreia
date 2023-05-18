@@ -1,0 +1,114 @@
+.navbar {
+  /* background: linear-gradient(90deg, #09174b 0%, #3F1C40 100%);  */
+  background:transparent;
+  height: 85px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  /* opacity: 0.8; */
+  z-index: 999;
+
+
+}
+
+.navbar.colorChange{
+  background: linear-gradient(90deg, #09174b 0%, #3F1C40 100%);
+  opacity: 1;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1350px; /* só comentar essa linha se quiser navbar extendida e não limitada */
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.logo {
+  width: 150px;
+  height: 95px
+  
+  x;
+  object-fit: contain;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-links.mobile {
+  display: block;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 30px;
+  cursor: pointer;
+
+}
+
+.navbar-links a:hover {
+  color: #fff;
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+
+}
+
+@media screen and (max-width: 940px) {
+  .navbar-container {
+    justify-content: flex-start;
+    /* justify-content: center; */
+  }
+  .logo {
+    margin: 0;
+  }
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background: linear-gradient(90deg, #09174b 0%, #3F1C40 100%);  
+    padding: 30px 0;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
+    transition:ease-in 1s
+  }
+  .navbar-links.mobile a {
+    margin: 10px 0;
+    
+  }
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #333;
+    font-size:large;
+  }
+  .menu-icon:hover {
+  color: #f1356d;
+  }
+  .navbar-links.mobile {
+  display: flex;
+  }
+  }

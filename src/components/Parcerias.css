@@ -1,0 +1,52 @@
+.sponsors{
+  width: 100%;
+  height: auto;
+  background: linear-gradient(90deg, #06113a 0%, #622063 100%);
+  padding-top: 150px;
+  padding-bottom: 120px;
+}
+
+.sponsors h2{
+    color: white;
+    font-size:xx-large;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.divSliderSponsor{
+  margin-top: 50px;
+  transition: visibility 1000s, opacity 0.8s;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.sliderSponsors{
+  width: 150px;
+  padding-top: 20px;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 60%;
+}
+
+.sliderSponsors2{
+  width: 150px;
+  /* padding-top: 20px; */
+  padding-bottom: 12px;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 60%;
+}
+
+
+@media (max-width: 768px) {
+  .divSliderSponsor{
+    max-width: 425px;
+  }
+
+
+}
+
+
+  
