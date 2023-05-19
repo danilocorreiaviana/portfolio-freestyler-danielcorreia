@@ -36,6 +36,22 @@
   opacity: 0.6;
 }
 
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+
+video::-webkit-media-controls-play-button {
+  display: none !important;
+}
+
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+}
+
 .text-container {
   font-size: 100vw;
   width: 100%;
@@ -60,6 +76,7 @@
 }
 
 .presentation {
+  margin-top: -20px;
   font-size: 2rem;
   font-weight: 500;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -68,6 +85,7 @@
 
 .buttonHomeVideo{
   width: 300px;
+  height: px;
   margin: 0 auto;
   font-weight: 400;
   font-size: 20px;
@@ -80,10 +98,54 @@
   border-width: 2px;
   background-color: transparent;
   margin-top: 40px;
-  padding: 10px;
   border-radius: 20px;
-  cursor: pointer;
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important;
+  position: relative;
 }
+
+
+.buttonVideo {
+  display:flex;
+  width: 300px;
+  align-items: center;
+  color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 3px;
+  font-weight: bold;
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 40px;
+  transition: background-color 0.3s ease;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  
+
+}
+
+.icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/7477/7477009.png");
+  background-size: cover;
+  margin-left: 8px;
+}
+
+.text {
+  text-align: center;
+}
+
+
+.buttonVideo:hover{
+  background-color: rgba(131, 95, 172, 0.6);
+}
+
+
 
 .buttonHomeVideo  img{
   width: 40px;
@@ -104,12 +166,19 @@
 
   .presentation {
     font-size: 1.2rem;
+    margin-top: 20px;
 
   }
 
-  .buttonHomeVideo{
+  .buttonVideo{
     width: 200px;
+    padding: 1px;
   }
+
+  .buttonVideo:hover{
+    background-color: transparent;
+  }
+
 
 
 

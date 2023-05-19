@@ -7,6 +7,8 @@ import Galeria from './components/Galeria';
 import Parcerias from './components/Parcerias';
 import Contato from './components/Contato';
 import Loader from './components/Loader';
+import BotaoFixo from './components/BotaoFixo';
+import BotaoFixoHome from './components/BotaoFixoHome';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -31,6 +33,8 @@ function App() {
           <Galeria />
           <Parcerias />
           <Contato />
+          <BotaoFixo/>
+          <BotaoFixoHome/>
         </>
       )}
     </>

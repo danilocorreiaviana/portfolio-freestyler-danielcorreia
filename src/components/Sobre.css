@@ -1,13 +1,14 @@
 .sobre {
     background: linear-gradient(90deg, #06113a 0%, #622063 100%);
-    color: #fff;
     padding: 100px 0;
+    color: #fff;
     /* max-width: 1350px; */
     margin: 0 auto;
   }
   
 .sobre h2 {
     font-size: 2rem;
+    font-weight: 500;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -18,6 +19,7 @@
     max-width: 850px;
     margin: 0 auto 30px;
     text-align:justify;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .sobre .citation{
@@ -53,7 +55,7 @@
     }
 
     .sobre .citation{
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       line-height: 2rem;
     }
   

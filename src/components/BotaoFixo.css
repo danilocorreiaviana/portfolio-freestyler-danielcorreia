@@ -1,0 +1,13 @@
+.botao-fixotop {
+    position: fixed;
+    border-radius: 30px;
+    bottom: 20px;
+    right:20px;
+    opacity: 0.8;
+    cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important;
+}
+
+.botao-fixotop:active{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}

@@ -21,70 +21,7 @@ function Navbar() {
 
   const [colorChange, setColorchange] = useState(false);
 
-  useEffect(()=>{
 
-/*     if(isMobile===true){
-      setColorchange(true)
-  }else{
-          if(isMobile===false && window.scrollY>=0){
-              setColorchange(true)
-          }else{
-              if(isMobile===true && window.scrollY===0){
-                setColorchange(false)
-              }
-    
-          }
-
-      
-      
-  } } */
-
-
-/*     const changeNavbarColor = () =>{
- 
-    
-         if(isMobile===true && window.scrollY>0){
-            setColorchange(true)
-         }
-         if(isMobile===true && window.scrollY===0){
-          setColorchange(true)
-         } 
-         if(isMobile === false && window.scrollY>0){
-          setColorchange(true)
-         }
-         if(isMobile===false && window.scrollY===0){
-          setColorchange(false)
-         } 
-
-
-      
-      
-      };
-
-      window.addEventListener('scroll', changeNavbarColor); */
-      
-
-
-}, [isMobile])
-
-/* const changeNavbarColor = () =>{
- 
-    
-
-  if(isMobile===true && window.scrollY===0){
-   setColorchange(true)
-  } 
-  if(isMobile===false && window.scrollY===0){
-    setColorchange(true)
-   } 
-
-
-
-
-
-};
-
-window.addEventListener('scroll', changeNavbarColor); */
 
 useEffect(()=>{
 
@@ -142,7 +79,7 @@ window.addEventListener('scroll', changeNavbarColor);
         </div>
 
           <div className='menu-icon' onClick={handleMenuClick}>
-                {isMobile ? (<FaTimes size={30} style={{ color: '#f8f8f8' }} />) : (<FaBars size={30} style={{ color: '#f8f8f8' }} />)}
+                {isMobile ? (<FaTimes size={30} className='buttonMenu' />) : (<FaBars size={30} className='buttonMenu' />)}
           </div>
       </div>
     </nav>

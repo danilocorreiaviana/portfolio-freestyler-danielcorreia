@@ -13,6 +13,7 @@ body {
  /*  max-width: 1350px; */
   margin: 0 auto;
   background: linear-gradient(90deg, #06113a 0%, #622063 100%);
+  cursor: url(https://cdn.custom-cursor.com/db/cursor/32/Soccer_Ball_Cursor.png) , default!important; 
 }
 
 .slick-prev,

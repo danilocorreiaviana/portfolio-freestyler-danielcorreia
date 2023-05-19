@@ -9,7 +9,6 @@
   font-size: 1.2rem;
   position: sticky;
   top: 0;
-  /* opacity: 0.8; */
   z-index: 999;
 
 
@@ -17,7 +16,7 @@
 
 .navbar.colorChange{
   background: linear-gradient(90deg, #09174b 0%, #3F1C40 100%);
-  opacity: 1;
+  transition: all 0.2s ease-in;
 }
 
 .navbar-container {
@@ -37,7 +36,7 @@
   x;
   object-fit: contain;
   margin-right: 20px;
-  cursor: pointer;
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important
 }
 
 .navbar-links {
@@ -55,7 +54,7 @@
   text-transform: uppercase;
   font-weight: 600;
   margin-right: 30px;
-  cursor: pointer;
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important
 
 }
 
@@ -67,8 +66,15 @@
 
 .menu-icon {
   display: none;
-  cursor: pointer;
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 
+}
+
+.buttonMenu{
+  margin-top: 5px;
+  color: #f8f8f8;
 }
 
 @media screen and (max-width: 940px) {
