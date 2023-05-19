@@ -44,7 +44,7 @@
   border-radius: 20px;
   align-items: center;
   justify-content: center;
-  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important;
+  cursor: pointer
 }
 
 
@@ -61,7 +61,7 @@
 
 .buttonGallery{
   backface-visibility: hidden;
-  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important;
+  cursor: pointer;
   display: inline-block;
   white-space: nowrap;
   background: #58c;
@@ -87,7 +87,7 @@
 .sliderGallery{
   width: 260px;
   margin: 0 auto;
-  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important;
+  cursor: pointer
 
 }
 
@@ -102,7 +102,7 @@
   font-size: 20px;
   padding-top: 30px;
   color: white;
-  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important;
+  cursor: pointer
 }
 
 

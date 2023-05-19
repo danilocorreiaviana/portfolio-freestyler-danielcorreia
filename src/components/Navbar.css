@@ -36,7 +36,7 @@
   x;
   object-fit: contain;
   margin-right: 20px;
-  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important
+  cursor: pointer;
 }
 
 .navbar-links {
@@ -54,7 +54,7 @@
   text-transform: uppercase;
   font-weight: 600;
   margin-right: 30px;
-  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important
+  cursor: pointer;
 
 }
 
@@ -66,7 +66,7 @@
 
 .menu-icon {
   display: none;
-  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important;
+  cursor: pointer;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
 

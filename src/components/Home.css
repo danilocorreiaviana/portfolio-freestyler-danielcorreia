@@ -99,7 +99,7 @@ video::-webkit-media-controls-start-playback-button {
   background-color: transparent;
   margin-top: 40px;
   border-radius: 20px;
-  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important;
+  cursor: pointer;
   position: relative;
 }
 
@@ -116,7 +116,7 @@ video::-webkit-media-controls-start-playback-button {
   font-size: 20px;
   padding: 3px;
   font-weight: bold;
-  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important;
+  cursor: pointer;
   justify-content: center;
   margin: 0 auto;
   margin-top: 40px;

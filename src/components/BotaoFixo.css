@@ -4,7 +4,7 @@
     bottom: 20px;
     right:20px;
     opacity: 0.8;
-    cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important;
+    cursor: pointer;
 }
 
 .botao-fixotop:active{
