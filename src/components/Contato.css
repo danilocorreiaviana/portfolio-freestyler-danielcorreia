@@ -56,13 +56,15 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  color:gray
+  color:gray;
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important;
 }
 
 .logocontatodev{
   width: 30px;
   height: 30px;
   padding: 8px;
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important;
 }
 
 @media (max-width: 600px) {
