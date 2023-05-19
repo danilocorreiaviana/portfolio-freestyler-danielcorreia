@@ -61,7 +61,7 @@
 
 .buttonGallery{
   backface-visibility: hidden;
-  cursor: pointer;
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important;
   display: inline-block;
   white-space: nowrap;
   background: #58c;
@@ -87,7 +87,7 @@
 .sliderGallery{
   width: 260px;
   margin: 0 auto;
-  cursor: pointer;
+  cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Goalkeeper_Glove_Pointer.png) , pointer!important;
 
 }
 
